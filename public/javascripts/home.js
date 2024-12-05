@@ -3,6 +3,7 @@ const nombre = document.getElementById("username");
 const form = document.getElementById("registro");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
+const theme = document.getElementById('theme')
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{9,20}$/;
@@ -45,7 +46,6 @@ nombre.addEventListener("change", function () {
   }else{
     removerError(nombre)
   }
-  console.log(ultimohijo);
 });
 
 email.addEventListener('change',function(){
@@ -54,6 +54,26 @@ email.addEventListener('change',function(){
 
 password.addEventListener('change', function(){
     validarPassword(password)
+})
+
+function changeTheme() {
+    document.body.classList.toggle('darkMode');
+    
+    if (sessionStorage.getItem('theme') == 'darkMode') {
+        sessionStorage.removeItem("theme")    
+    }else{
+        sessionStorage.setItem("theme","darkMode")
+        sessionStorage.setItem("nombre","Julian")
+        sessionStorage.setItem("edad","34")
+    }
+}
+
+window.addEventListener("load", function() {
+    const theme = sessionStorage.getItem('theme');
+
+    if (theme == 'darkMode') {
+        document.body.classList.toggle('darkMode');
+    };
 })
 
 form.addEventListener("submit", function (event) {

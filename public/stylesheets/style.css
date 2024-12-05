@@ -1,3 +1,32 @@
+:root{
+  --var-backgroud-ligth: rgb(187, 230, 249);
+  --var-text-color-ligth: rgb(11, 11, 11);
+  --var-backgroud-dark: rgb(40, 50, 54);
+  --var-text-color-dark: rgb(189, 229, 245);
+}
+
+body{
+  background-color: var(--var-backgroud-ligth);
+  color: var(--var-text-color-ligth);
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li{
+  padding: 10px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -23,4 +52,9 @@ form {
   font-size: 0.5rem;
   font-weight: bold;
   font-style: italic;
+}
+
+.darkMode{
+  background-color: var(--var-backgroud-dark);
+  color: var(--var-text-color-dark);
 }
