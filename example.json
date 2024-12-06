@@ -1,0 +1,13 @@
+{
+  "cantidad": 1,
+  "inicio": 0,
+  "parametros": { "nombre": "Neuquen" },
+  "provincias": [
+    {
+      "centroide": { "lat": -38.6419828626673, "lon": -70.1198972237318 },
+      "id": "58",
+      "nombre": "Neuquén"
+    }
+  ],
+  "total": 1
+}
