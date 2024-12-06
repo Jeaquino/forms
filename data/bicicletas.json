@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "marca": "Giant",
+    "modelo": "Defy Advanced 2",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Negro"
+  },
+  {
+    "id": 2,
+    "marca": "Trek",
+    "modelo": "Domane SL 6",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Azul"
+  },
+  {
+    "id": 3,
+    "marca": "Specialized",
+    "modelo": "Roubaix Comp",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Rojo"
+  },
+  {
+    "id": 4,
+    "marca": "Trek",
+    "modelo": "Synapse Carbon 105",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Verde"
+  },
+  {
+    "id": 5,
+    "marca": "BMC",
+    "modelo": "Roadmachine 01 FOUR",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 24,
+    "frenos": "Disco hidráulico",
+    "color": "Azul"
+  },
+  {
+    "id": 6,
+    "marca": "Trek",
+    "modelo": "Addict RC 10",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 24,
+    "frenos": "Disco hidráulico",
+    "color": "Gris"
+  },
+  {
+    "id": 7,
+    "marca": "Merida",
+    "modelo": "Scultura Endurance",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Azul"
+  },
+  {
+    "id": 8,
+    "marca": "Canyon",
+    "modelo": "Ultimate CF SLX 8",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Naranja"
+  },
+  {
+    "id": 9,
+    "marca": "Pinarello",
+    "modelo": "Prince Disk",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 22,
+    "frenos": "Disco hidráulico",
+    "color": "Rosa"
+  },
+  {
+    "id": 10,
+    "marca": "Colnago",
+    "modelo": "V3RS",
+    "tamañoRuedas": 700,
+    "materialCuadro": "Carbono",
+    "velocidades": 24,
+    "frenos": "Disco hidráulico",
+    "color": "Azul Marino"
+  }
+]
