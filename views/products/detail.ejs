@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('./../partials/head') %>
+<body>
+    <%-include('./../partials/header') %>
+    <main>
+        <h1>
+            <%= bicicleta.marca %>
+        </h1>
+        <% for(key in bicicleta) {%>
+            <p>
+                <%= key %>: <%= bicicleta[key] %>
+            </p>
+            <% } %>
+    </main>
+    <%-include('./../partials/footer') %>
+</body>
+
+</html>

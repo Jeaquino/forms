@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./../partials/head') %>
+<body>
+    <%-include('./../partials/header') %>
+    <main>
+        <h1>Mundo Bici</h1>
+        <% bicicletas.forEach(bici => { %>
+            <div>
+                <% for(key in bici) {%>
+                    <p><%= key %>: <%= bici[key] %></p>
+                <% } %>
+            </div>
+        <% }); %>
+    </main>
+    <%-include('./../partials/footer') %>
+</body>
+</html>
