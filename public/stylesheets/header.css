@@ -1,9 +1,11 @@
 header{
     background-color: var(--var-backgroud-ligth);
+    width: 100vw;
 }
 
 #logo {
   width: 10vw;
+  border-radius: 50%;
 }
 
 .logo-input {
