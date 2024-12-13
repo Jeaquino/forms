@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%-include('./../partials/head',{title:"Lista de productos"}) %>
-<body>
-    <%-include('./../partials/header') %>
-    <main>
-        <h1>Mundo Bici</h1>
-        <% bicicletas.forEach(bici => { %>
-            <div>
-                <% for(key in bici) {%>
-                    <p><%= key %>: <%= bici[key] %></p>
-                <% } %>
-            </div>
-        <% }); %>
-    </main>
-    <%-include('./../partials/footer') %>
-</body>
+<%-include('./../partials/head',{title:"Lista de productos"}) %>
+
+    <body>
+        <%-include('./../partials/header') %>
+            <main class="procucts_main">
+                <h1>Mundo Bici</h1>
+                <% bicicletas.forEach(bici=> { %>
+                    <article class="products_main_article">
+                        <div>
+                            <a href="/products/<%= bici.id %>/detail">
+                                <img src="<%= bici.imagen %>"
+                                alt="Es la imagen del producto <%= ( bici.marca + bici.modelo) %>" />
+                            </a>
+                        </div>
+                        <div>
+                            <h3>
+                                <%= ( bici.marca + bici.modelo) %>
+                            </h3>
+                            <h4>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <%= bici.precio %>
+                            </h4>
+                            <button class="boton_de_compra">Comprar <i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </article>
+                    <% }); %>
+            </main>
+            <%-include('./../partials/footer') %>
+    </body>
+
 </html>

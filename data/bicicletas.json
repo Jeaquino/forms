@@ -7,7 +7,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Negro"
+    "color": "Negro",
+    "imagen": "./images/bici-1.jpeg",
+    "precio": 400000
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Azul"
+    "color": "Azul",
+    "imagen": "./images/bici-2.jpeg",
+    "precio": 400000
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Rojo"
+    "color": "Rojo",
+    "imagen": "./images/bici-4.jpg",
+    "precio": 400000
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Verde"
+    "color": "Verde",
+    "imagen": "./images/bici-1.jpeg",
+    "precio": 400000
   },
   {
     "id": 5,
@@ -47,7 +55,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 24,
     "frenos": "Disco hidráulico",
-    "color": "Azul"
+    "color": "Azul",
+    "imagen": "./images/bici-2.jpeg",
+    "precio": 400000
   },
   {
     "id": 6,
@@ -57,7 +67,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 24,
     "frenos": "Disco hidráulico",
-    "color": "Gris"
+    "color": "Gris",
+    "imagen": "./images/bici-4.jpg",
+    "precio": 400000
   },
   {
     "id": 7,
@@ -67,7 +79,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Azul"
+    "color": "Azul",
+    "imagen": "./images/bici-2.jpeg",
+    "precio": 400000
   },
   {
     "id": 8,
@@ -77,7 +91,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Naranja"
+    "color": "Naranja",
+    "imagen": "./images/bici-1.jpeg",
+    "precio": 400000
   },
   {
     "id": 9,
@@ -87,7 +103,9 @@
     "materialCuadro": "Carbono",
     "velocidades": 22,
     "frenos": "Disco hidráulico",
-    "color": "Rosa"
+    "color": "Rosa",
+    "imagen": "./images/bici-4.jpg",
+    "precio": 400000
   },
   {
     "id": 10,
@@ -97,6 +115,8 @@
     "materialCuadro": "Carbono",
     "velocidades": 24,
     "frenos": "Disco hidráulico",
-    "color": "Azul Marino"
+    "color": "Azul Marino",
+    "imagen": "./images/bici-1.jpeg",
+    "precio":400000
   }
 ]

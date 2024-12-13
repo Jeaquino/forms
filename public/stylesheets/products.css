@@ -1,0 +1,47 @@
+.procucts_main{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.procucts_main h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.products_main_article{
+    width: 30%;
+    box-shadow: 0 0 5px black;
+    border-radius: 20px;
+    background-color: white;
+}
+.products_main_article div{
+    height: 50%;
+}
+.products_main_article img{
+    width: 70%;
+    margin-top: 2vh;
+    transition: 0.5s;
+}
+
+.products_main_article img:hover{
+    /* width: 100%; */
+    transform: scale(1.1,1.1) ;
+}
+
+.products_main_article h3, h4{
+    text-align: start;
+    margin-left: 2vw;
+}
+
+.boton_de_compra{
+    margin-bottom: 1vh;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9cc75d;
+    color: white;
+    font-weight: bold;
+}
