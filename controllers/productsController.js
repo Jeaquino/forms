@@ -1,3 +1,4 @@
+const { log } = require('console');
 const fs = require('fs')
 
 const productsController = {
@@ -7,15 +8,14 @@ const productsController = {
         const bicicleta = bicicletas.find(element => element.id == id);
         console.log(bicicleta);
         if(bicicleta){
-            res.render('products/detail',{bicicleta});
+            res.render('products/detail',{bicicleta,title:"Titulo desde el controlador"});
         }else{
             res.send("El producto seleccionado no existe");
         }
     },
 
     all:(req,res,next)=>{
-        const {marca,color,velocidades} = req.query;
-        
+        const {marca,color,velocidades} = req.body;
         let bicicletas = JSON.parse(fs.readFileSync('./data/bicicletas.json', 'utf-8'));
         
         if(marca || color || velocidades){
