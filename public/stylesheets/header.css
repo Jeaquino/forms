@@ -1,0 +1,40 @@
+header{
+    background-color: var(--var-backgroud-ligth);
+}
+
+#logo {
+  width: 10vw;
+}
+
+.logo-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buscador{
+    position: relative;
+}
+
+#search_icon{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.nav-header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header nav ul li{
+    padding: 0.5rem;
+}
